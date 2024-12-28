@@ -1,0 +1,26 @@
+Objective:
+Build a web application that provides AI-driven property recommendations to users. The backend uses a machine learning model to suggest properties based on user preferences and browsing history. The frontend consists of a property listing page and a login page, with a Flask API handling the recommendation logic.
+
+1. Project Structure:
+Frontend:
+Login Page: A simple form for user authentication (MongoDB and Node.js backend).
+Listing Page: Displays available properties and suggests properties based on user interactions.
+Backend:
+Flask API: Handles property recommendation requests by leveraging a pre-trained machine learning model.
+MongoDB: Used for storing user data, property details, and interaction history.
+TensorFlow or another ML Framework: Utilized for building and serving the property recommendation model.
+2. Key Components:
+Frontend:
+HTML/CSS: Basic structure and styling for the website.
+JavaScript: Handles the dynamic features like displaying property lists and interacting with the backend API for recommendations.
+Backend:
+Flask API: Handles HTTP requests (GET/POST) for property recommendations.
+Machine Learning Model: A pre-trained model (TensorFlow, Keras, etc.) used to predict which properties a user would prefer.
+MongoDB: Database to store user data, property details, and browsing history for personalized recommendations.
+3. Steps to Build the Project:
+Step 1: Model Training and Saving
+Dataset: Use dummy or real property data, including features like location, price, type, etc.
+Preprocessing: Apply encoding techniques for categorical variables (e.g., LabelEncoder for location and property type).
+Model Training: Train a neural network model (e.g., using TensorFlow/Keras) to predict user preferences based on the property features.
+Save Model: Save the trained model in .h5 format to be loaded later.
+                                                                    
